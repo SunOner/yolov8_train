@@ -46,7 +46,7 @@
 - Choose between 320, 480 and 640. Let's choose 320.
 - Now let's choose how many epochs the model will be trained. The larger the dataset, the more epochs it will take to learn. Do not overdo it, many epochs can also affect the retraining of the model, keep an eye on the indicators during training in the future. Let's imagine that we have set 40 epochs.
 - (optional) All training options are described [here](https://docs.ultralytics.com/modes/train/#train-settings)
-- Now let's enter a command for training. `yolo detect train data=game.yaml model=yolov8n.yaml epochs=40 imgsz=320`
+- Now let's enter a command for training. `yolo detect train data=game.yaml model=yolov8n.pt epochs=40 imgsz=320`
 - After successful training, go to the runs/detect/train/weights folder.
 - You will see 2 files.
 	- best.pt (This is the file with the best training, that is, we select it.)
