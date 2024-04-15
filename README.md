@@ -23,6 +23,7 @@
 - The more complex the game looks for AI (for example, cs2 is a more formulaic game than battlefield 2042), the more data you will need to train the model (You may need at least 5000-10000 images).
 - Images can be in 4k resolution and 100x100 pixels.
 - Ready-made datasets can be found [here](https://universe.roboflow.com/).
+- Also, do not forget to add images and annotated files to the val folder, the same rules apply for this folder as for the train folder. There may be few images for validation, approximately if you have 1000 images for training, take and add 10 images for validation.
 - Pay attention to the game.yaml file.
 	- An example dataset is called game, the file can be renamed to the name of your project.
 	- In the file you will find values such as:
